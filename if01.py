@@ -1,7 +1,7 @@
 def main(a,b,c):
-    if a<=b and b>=c :
+    if a>=b and a>=c :
         return a
-    if b<=a and b>=c :
+    if b>=a and b>=c :
         return b
     return c
 
@@ -15,4 +15,4 @@ def main(a,b,c):
         int: return answer.
     """
     # return
-print(main(-2,-3,-2))
+print(main(7,8,9))
