@@ -1,4 +1,10 @@
 def main(a,b,c):
+    if a>=b and b>=c or a<=b and b<=c:
+        return b
+    if b>=a and a>=c or b<=a and a<=c:
+        return a
+    return c
+
     """
     Determine the number between large and small.
     Args:
@@ -8,4 +14,5 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    # return
+print(main(5,5,7))
